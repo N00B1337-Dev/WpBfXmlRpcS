@@ -58,7 +58,7 @@ print ("""
 ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚══╝╚══╝ ╚═╝     ╚═════╝ ╚═╝     
 XML-RPC Brute Force Wordpress WP-LOGIN BRUTE FORCE
 By @MASKTHEMOUSE                        
-"""
+""")
 # Check if password file exists
 if not os.path.exists(password_file):
     print(f"{red}[ERROR]{reset} Password file '{password_file}' not found!")
