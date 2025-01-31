@@ -142,7 +142,7 @@ class Brute:
 
     def random_user_agent(self):
         """Generate a random User-Agent"""
-        user_agents_file = "Files/user-agent.txt"
+        user_agents_file = "user-agent.txt"
         if os.path.exists(user_agents_file):
             with open(user_agents_file, "r", encoding="utf-8") as f:
                 user_agents = f.read().splitlines()
